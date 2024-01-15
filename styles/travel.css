@@ -6,11 +6,18 @@ body {
 .text-primary {
     color: #FF5400;
 }
+
+/* logo related styles */
+.logo-pic{
+    padding-right: 0px;
+}
+
 /* nav related styles */
 nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -32,4 +39,36 @@ nav li {
 nav a{
     text-decoration: none;
     color: #424247;
+}
+
+/* header related styles */
+.banner{
+    background-image: url(../images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.banner{
+    padding: 140px 130px 130px;
+}
+.banner-title{
+    color: #FFF;
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: center;
+}
+
+.banner-description{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
 }
